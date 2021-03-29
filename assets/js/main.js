@@ -8,7 +8,6 @@ document.getElementById("number_text").addEventListener("input", function () {
 				number_text[key] = parseInt(number_text[key]);
 				let keta_str = keta_fn(parseInt(keta.keta[key].zero));
 				let pattern = new RegExp(keta_str,"g");
-				console.log(key,str);
 				if (number_text[key] == 0) {
 						//str = str;
 				} else if (number_text[key] == 1) {
