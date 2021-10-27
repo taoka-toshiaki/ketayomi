@@ -17,7 +17,7 @@
 	<div class="row">
 		<div class="col-12">
 			数値を入力ください。
-			<input class="form-control" type="text" name="text" id="number_text">
+			<input class="form-control" type="text" name="text" id="number_text" maxlength="72">
 		</div>
 		<div class="col-12">
 			<p id="view"></p>
